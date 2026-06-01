@@ -58,49 +58,6 @@
     min-height: 0;
 }
 
-/* 密码验证模态框 */
-.password-modal {
-    z-index: 65;
-}
-
-.password-form {
-    margin-bottom: 1.5rem;
-}
-
-.password-input {
-    width: 100%;
-    background-color: #111;
-    border: 1px solid #333;
-    color: white;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-}
-
-.password-input:focus {
-    outline: none;
-    border-color: white;
-}
-
-.password-submit {
-    width: 100%;
-    background-color: #3b82f6;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    font-weight: 500;
-}
-
-.password-submit:hover {
-    background-color: #2563eb;
-}
-
-.password-error {
-    color: #ef4444;
-    margin-top: 0.5rem;
-    display: none;
-}
-
 /* 声明模态框 */
 .disclaimer-modal {
     z-index: 60;
